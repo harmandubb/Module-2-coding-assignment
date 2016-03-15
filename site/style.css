@@ -1,3 +1,86 @@
-p {
-	color: blue;
+/**stuff that is nessary**/
+
+* {
+  box-sizing: border-box;/**can someone tell me why i need border box again**/
+}
+.box1,.box2,.box3 {
+  border:5px solid black;
+  margin: 10px;
+}
+/*****Base styles****/
+h1 {
+  text-align: center;
+}
+
+h2{
+  margin-right:10px;
+  border:3px dotted black;
+  float:right;
+  width:250px;
+  text-align:center; 
+}
+
+p{
+  margin:10px;
+  clear:both;
+  text-align: justify;
+}
+
+/***Desktop devices***/
+@media (min-width: 992px){
+  .col-lg-4{
+    float: left;
+    width:33.33%;
+    margin: 0px;
+  }
+}
+
+/***Tablet Devices***/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6{
+    float: left;
+    width:50%;
+    margin: 0px;
+}
+  .col-md-12{
+    float: left;
+    width:100%;
+    margin: 0px;
+    
+}
+}
+
+/***Mobile Devices***/
+@media (max-width: 767px){
+  .col-sm-12{
+    float: left;
+    width: 100%;
+    margin:0px;
+}
+}
+
+/***Colors for names****/
+.Issac {
+  background-color:#ff3300;
+}
+
+.Elon{
+  background-color: #0099ff;
+}
+
+.Martin{
+  background-color:#00cc66; 
+}
+
+/****Colors for the boxes****/
+.box1{
+  background-color: #0099ff;
+}
+
+.box2{
+  background-color: #00cc66;
+}
+
+.box3{
+  background-color: #ff3300;
 }
