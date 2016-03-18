@@ -13,7 +13,8 @@ h1 {
 }
 
 h2{
-  margin-right:10px;
+  margin-right:0px;
+  margin-top: 0px;
   border:3px dotted black;
   float:right;
   width:250px;
