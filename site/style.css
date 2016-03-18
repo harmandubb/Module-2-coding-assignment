@@ -6,6 +6,7 @@
 .box1,.box2,.box3 {
   border:5px solid black;
   margin: 10px;
+  height: 185px;
 }
 /*****Base styles****/
 h1 {
